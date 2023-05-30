@@ -1,7 +1,7 @@
 import geocoder
 import folium
 
-g = geocoder.ip("me")
+g = geocoder.ip("your ip")
 myAddress = g.latlng
 print(myAddress)
 myMap = folium.Map(location=myAddress, zoom_start=12)
