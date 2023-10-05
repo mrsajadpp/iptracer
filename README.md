@@ -1,5 +1,5 @@
-```markdown
-# IP Location Map Generator
+```
+## IP Location Map Generator
 
 This Python script allows you to generate a map based on the location of an IP address. It uses the `geocoder` and `folium` libraries to retrieve the location information and create an interactive map.
 
@@ -9,13 +9,13 @@ This Python script allows you to generate a map based on the location of an IP a
 
 2. Install the required Python packages by running the following command:
 
-   ```bash
+   ```
    pip install -r requirements.txt
    ```
 
 3. Run the script:
 
-   ```bash
+   ```
    python ip_location_map.py
    ```
 
